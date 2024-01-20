@@ -1,0 +1,61 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.timer-container {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.timer {
+  font-size: 3em;
+  margin: 20px 0;
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 1.2em;
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Optional: Add a subtle box shadow to the timer container */
+.timer-container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+}
