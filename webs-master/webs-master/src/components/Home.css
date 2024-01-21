@@ -1,0 +1,100 @@
+/* Home header */
+header {
+  text-align: center;
+}
+
+/* Home title */
+h1 {
+  color: #007bff; /* Blue color */
+  margin-bottom: 10px;
+  font-size: 2rem; /* Larger font size */
+}
+
+/* Home introduction */
+p {
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 1.1rem; /* Slightly larger font size */
+  line-height: 1.5; /* Improved line height */
+}
+
+/* Colorful theme for paragraphs */
+p::before {
+  content: ' ';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ffcc00; /* Yellow color */
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* Featured Images section */
+section {
+  margin-top: 20px;
+}
+
+/* Featured Images title */
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.5rem; /* Larger font size */
+}
+
+/* Image gallery container */
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Individual image style */
+.image-gallery img {
+  width: calc(33.333% - 10px); /* Adjust the width as needed */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Featured Videos section */
+.video-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Featured Videos title */
+h2.video-title {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.5rem; /* Larger font size */
+}
+
+/* Video gallery container */
+.video-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Individual video style */
+.video-gallery iframe {
+  width: calc(50% - 10px); /* Adjust the width as needed */
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Additional content section */
+.additional-content {
+  text-align: justify;
+  margin-top: 30px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+  .image-gallery img {
+    width: 100%;
+  }
+
+  .video-gallery iframe {
+    width: 100%;
+  }
+}

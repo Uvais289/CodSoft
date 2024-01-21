@@ -1,0 +1,64 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+/* Global container styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Global header styling */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #007bff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Global section styling */
+section {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+/* Global image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Global button styling */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
